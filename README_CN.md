@@ -4,7 +4,7 @@ AI Secret Scanner API 是一个基于 FastAPI 的确定性敏感信息扫描服�
 
 ## Agent Discovery
 
-- Agent Card: https://api.bugscan.cn/.well-known/agent.json
+- Agent Card: https://api.bugscan.cn/api/v1/scan/.well-known/agent.json
 - 执行接口：https://api.bugscan.cn/api/v1/scan/check
 - MCP JSON-RPC 地址：https://api.bugscan.cn/api/v1/scan/mcp
 - MCP SSE 地址：https://api.bugscan.cn/api/v1/scan/mcp/sse

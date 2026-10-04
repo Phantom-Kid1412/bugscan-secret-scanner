@@ -4,7 +4,7 @@ AI Secret Scanner API is a FastAPI service for deterministic scanning of text, s
 
 ## Agent Discovery
 
-- Agent Card: https://api.bugscan.cn/.well-known/agent.json
+- Agent Card: https://api.bugscan.cn/api/v1/scan/.well-known/agent.json
 - Execution endpoint: https://api.bugscan.cn/api/v1/scan/check
 - MCP JSON-RPC Endpoint: https://api.bugscan.cn/api/v1/scan/mcp
 - MCP SSE Endpoint: https://api.bugscan.cn/api/v1/scan/mcp/sse
