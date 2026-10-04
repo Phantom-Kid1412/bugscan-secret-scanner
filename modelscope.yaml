@@ -1,0 +1,9 @@
+name: bugscan-secret-scanner
+display_name: BugScan Secret Scanner
+description: AI-powered secret and PII scanning API. Detects hardcoded credentials, API keys, passwords, tokens, and personally identifiable information in text.
+type: mcp
+mcp:
+  transport: sse
+  url: https://api.bugscan.cn/api/v1/scan/.well-known/agent.json
+  remote: true
+license: MIT
